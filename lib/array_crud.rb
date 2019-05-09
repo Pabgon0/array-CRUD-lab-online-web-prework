@@ -8,12 +8,12 @@ end
 
 def add_element_to_end_of_array(array, element)
   array = ["1"]
-  array.push("2")
+  array.push(element)
 end
 
 def add_element_to_start_of_array(array, element)
   array = ["1"]
-  array.unshift("2")
+  array.unshift(element)
 end
 
 def remove_element_from_end_of_array(array)
